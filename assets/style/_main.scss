@@ -1,0 +1,210 @@
+.main {
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.category {
+    width: 1280px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.wrap_item__category {
+    display: flex;
+    flex-direction: row;
+}
+.wrap_discript {
+    padding-right: 40px;
+}
+.item_gategory {
+    background: rgba(0, 0, 0, 0.04);
+    width: 610px;
+    height: 360px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+}
+.title_category {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #828282;
+}
+.discript_category {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 108%;
+    color: #4f4f4f;
+}
+.btn_catagory {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16.8px;
+    line-height: 22px;
+    border: none;
+    background: inherit;
+    color: #828282;
+}
+.img_more {
+    padding-left: 10px;
+}
+.about {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.gallery {
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+}
+.about_content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+}
+.wrap_title_about {
+    width: 411px;
+    text-align: left;
+    height: 123px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: -0.01em;
+    color: #4f4f4f;
+}
+.wrap_about_discript {
+    width: 630px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: -0.01em;
+    color: #4f4f4f;
+}
+.key_word {
+    font-weight: bold;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: -0.01em;
+    color: #4f4f4f;
+}
+.img_about_2 {
+    position: absolute;
+    left: 1052px;
+}
+.wrap_country_list {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    color: #4f4f4f;
+}
+.country_partner {
+    font-style: normal;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: -0.01em;
+    color: #4f4f4f;
+    list-style: none;
+}
+.country_partner::before {
+    content: "-";
+    padding-right: 10px;
+}
+.first_partner_list,
+.second_partner_list {
+    padding: 0;
+    margin: 0;
+}
+.first_partner_list {
+    margin-right: 210px;
+}
+.promo {
+    width: 1280px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+    background: #fcfcfc;
+}
+.new_promo_product,
+.news_promo_block {
+    width: 45%;
+}
+.new_promo_product {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.news_promo_block {
+    font-family: Gotham Pro;
+    font-style: normal;
+    line-height: 32px;
+    color: #4f4f4f;
+}
+.title_promo {
+    font-weight: bold;
+    font-size: 26px;
+}
+.discript_news_promo {
+    font-size: 17px;
+}
+.our_shops {
+    background: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.wrapper_slider_shops {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.shops_slide {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 30%;
+}
+.title_shops {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 32px;
+}
+.discript_slider_shops {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 24px;
+    letter-spacing: -0.01em;
+    color: #4f4f4f;
+    .discript_font {
+        font-weight: 400;
+    }
+}
+.address_shops {
+    width: 290px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 32px;
+    color: #4f4f4f;
+}
