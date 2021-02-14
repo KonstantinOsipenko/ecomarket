@@ -120,8 +120,8 @@
             </section>
             <section class="about">
                 <div class="gallery">
-                    <div class="img_about_1"> <img src="assets/img/about_1.png" alt=""></div>
-                    <div class="img_about_2"> <img src="assets/img/about_2.png" alt=""></div>
+                    <div class="img_about_1"> <img class="img_about" src="assets/img/about_1.png" alt=""></div>
+                    <div class="img_about_2"> <img class="img_about" src="assets/img/about_2.png" alt=""></div>
                 </div>
                 <div class="about_content">
                     <div class="wrap_title_about">
@@ -211,14 +211,16 @@
                     </a>
                 </div>
                 <div class="footer_column column_adress">
-                    <h3>Adrress</h3>
-                    <span>Central Office,</span>
-                    <span>Skersgata 38-450,</span>
-                    <span>0180 Oslo, Norway</span>
+                    <h3 class="title_footer_column">Adrress</h3>
+                    <ul class="address_list list">
+                        <li class="item_list_address">Central Office,</li>
+                        <li class="item_list_address">Skersgata 38-450,</li>
+                        <li class="item_list_address">0180 Oslo, Norway</li>
+                    </ul>
                 </div>
                 <div class="footer_column column_social_network">
-                    <h3>Follow us</h3>
-                    <ul class="social_link_list">
+                    <h3 class="title_footer_column">Follow us</h3>
+                    <ul class="social_link_list list">
                         <li class="item_social_list"><a href="" class="social_link">
                                 Instagram
                             </a></li>
@@ -235,9 +237,9 @@
                 </div>
                 <div class="footer_column column_form_subscribe">
                     <span class="discript_subscribe">Subscribe for Newsletter</span>
-                    <form>
-                        <input type="email" name="" id="" value="Email address">
-                        <input type="button" value="Subscribe">
+                    <form class="sub_form">
+                        <input class="input_sub" type="email" name="" id="" value="Email address">
+                        <input class="btn_sub" type="button" value="Subscribe">
                     </form>
                 </div>
             </secction>
