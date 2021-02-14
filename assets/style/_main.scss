@@ -103,7 +103,7 @@
 }
 .img_about_2 {
     position: absolute;
-    left: 1052px;
+    left: 1065px;
 }
 .wrap_country_list {
     display: flex;
@@ -175,13 +175,16 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    width: 100%;
 }
 .shops_slide {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    width: 30%;
+}
+.second_slide {
+    margin: 0 40px;
 }
 .title_shops {
     font-style: normal;

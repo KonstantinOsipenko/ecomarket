@@ -2,7 +2,10 @@
     height: 100%;
 }
 .header {
+    width: 100%;
     background-image: url(../assets/img/header_bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
     height: 700px;
 }
 .nav {

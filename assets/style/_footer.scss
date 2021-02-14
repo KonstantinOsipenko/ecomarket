@@ -11,6 +11,7 @@
     flex-wrap: nowrap;
     justify-content: space-around;
     align-items: center;
+    width: 1256px;
 }
 .footer_column {
     display: flex;
@@ -18,7 +19,7 @@
     align-items: flex-start;
 }
 .privacy_policy {
-    width: 1250px;
+    width: 1256px;
     padding-top: 25px;
     border-top: solid 1px #191f23;
     display: flex;
@@ -26,17 +27,17 @@
     align-items: center;
 }
 .logo_column {
-    width: 200px;
+    width: 24%;
 }
 .column_adress {
-    width: 283px;
-    margin-left: 80px;
+    width: 24%;
 }
 .column_social_network {
-    width: 283px;
-    margin-right: 25px;
+    width: 24%;
 }
 .column_form_subscribe {
-    width: 284px;
-    margin-left: 55px;
+    width: 24%;
+}
+.social_link_list {
+    padding: 0;
 }

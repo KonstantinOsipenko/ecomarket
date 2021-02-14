@@ -20,13 +20,15 @@ input[type="search"]::-webkit-search-results-decoration {
     display: none;
 }
 .wrapper {
-    max-width: 1630px;
-    margin: 25px;
+    max-width: 1600px;
+    justify-content: center;
+    margin: auto;
+    display: grid;
+    grid-template-rows: 2fr 10fr 0.4fr;
 }
 @import "_header";
 @import "_main";
 @import "_footer";
-
 
 // header end
 // start main
@@ -51,6 +53,10 @@ input[type="search"]::-webkit-search-results-decoration {
     .wrap_title_about {
         width: 100%;
         text-align: center;
+    }
+    .img_sliders {
+        width: 250px;
+        height: 250px;
     }
 }
 @media only screen and (max-width: 1280px) {

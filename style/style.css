@@ -25,8 +25,15 @@ input[type="search"]::-webkit-search-results-decoration {
 }
 
 .wrapper {
-  max-width: 1630px;
-  margin: 25px;
+  max-width: 1600px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: auto;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: 2fr 10fr 0.4fr;
+      grid-template-rows: 2fr 10fr 0.4fr;
 }
 
 .logo {
@@ -34,7 +41,10 @@ input[type="search"]::-webkit-search-results-decoration {
 }
 
 .header {
+  width: 100%;
   background-image: url(../assets/img/header_bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
   height: 700px;
 }
 
@@ -266,7 +276,7 @@ input[type="search"]::-webkit-search-results-decoration {
 
 .img_about_2 {
   position: absolute;
-  left: 1052px;
+  left: 1065px;
 }
 
 .wrap_country_list {
@@ -395,6 +405,7 @@ input[type="search"]::-webkit-search-results-decoration {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  width: 100%;
 }
 
 .shops_slide {
@@ -411,7 +422,10 @@ input[type="search"]::-webkit-search-results-decoration {
   -webkit-box-align: start;
       -ms-flex-align: start;
           align-items: flex-start;
-  width: 30%;
+}
+
+.second_slide {
+  margin: 0 40px;
 }
 
 .title_shops {
@@ -475,6 +489,7 @@ input[type="search"]::-webkit-search-results-decoration {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  width: 1256px;
 }
 
 .footer_column {
@@ -491,7 +506,7 @@ input[type="search"]::-webkit-search-results-decoration {
 }
 
 .privacy_policy {
-  width: 1250px;
+  width: 1256px;
   padding-top: 25px;
   border-top: solid 1px #191f23;
   display: -webkit-box;
@@ -506,22 +521,23 @@ input[type="search"]::-webkit-search-results-decoration {
 }
 
 .logo_column {
-  width: 200px;
+  width: 24%;
 }
 
 .column_adress {
-  width: 283px;
-  margin-left: 80px;
+  width: 24%;
 }
 
 .column_social_network {
-  width: 283px;
-  margin-right: 25px;
+  width: 24%;
 }
 
 .column_form_subscribe {
-  width: 284px;
-  margin-left: 55px;
+  width: 24%;
+}
+
+.social_link_list {
+  padding: 0;
 }
 
 @media only screen and (max-width: 1400px) {
@@ -553,6 +569,10 @@ input[type="search"]::-webkit-search-results-decoration {
   .wrap_title_about {
     width: 100%;
     text-align: center;
+  }
+  .img_sliders {
+    width: 250px;
+    height: 250px;
   }
 }
 
