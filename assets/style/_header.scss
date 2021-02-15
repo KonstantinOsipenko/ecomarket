@@ -39,6 +39,9 @@
 .search_form {
     position: absolute;
     right: 50px;
+    right: 50px;
+    top: 50%;
+    transform: translateY(-50%);
 }
 .search {
     border: none;
