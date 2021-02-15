@@ -8,6 +8,7 @@ body {
     margin: 0;
     font-family: "Gotha", sans-serif;
     box-sizing: border-box;
+    overflow-x: hidden;
 }
 input[type="text"]::-ms-clear {
     display: none;
@@ -70,8 +71,14 @@ input[type="search"]::-webkit-search-results-decoration {
         width: 250px;
         height: 250px;
     }
+    .location_office {
+        margin-right: 50px;
+    }
 }
 @media only screen and (max-width: 1280px) {
+    .nav {
+        justify-content: stretch;
+    }
     .nav_list {
         width: 45%;
     }
@@ -101,5 +108,25 @@ input[type="search"]::-webkit-search-results-decoration {
     }
     .btn_sub {
         width: 100px;
+    }
+}
+@media only screen and (max-width: 1024px) {
+    .wrapper {
+        max-width: 1024px;
+    }
+    .footer_column {
+        width: 15%;
+    }
+    .privacy_policy {
+        width: 880px;
+    }
+    .nav_list {
+        width: 55%;
+    }
+    .nav_list__item {
+        margin-left: 25px;
+    }
+    .search {
+        width: 240px;
     }
 }

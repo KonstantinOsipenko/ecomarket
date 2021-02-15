@@ -10,6 +10,7 @@ body {
   font-family: "Gotha", sans-serif;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  overflow-x: hidden;
 }
 
 input[type="text"]::-ms-clear {
@@ -104,7 +105,8 @@ input[type="search"]::-webkit-search-results-decoration {
   border: none;
   width: 380px;
   height: 50px;
-  background: url(../assets/img/search.png) no-repeat 340px;
+  background: url(../assets/img/search.png) no-repeat;
+  background-position: center right;
 }
 
 .main {
@@ -223,9 +225,9 @@ input[type="search"]::-webkit-search-results-decoration {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: stretch;
-      -ms-flex-pack: stretch;
-          justify-content: stretch;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
 }
 
 .about_content {
@@ -273,7 +275,7 @@ input[type="search"]::-webkit-search-results-decoration {
 }
 
 .img_about_1 {
-  margin-right: 125px;
+  margin-right: 190px;
 }
 
 .wrap_country_list {
@@ -452,6 +454,31 @@ input[type="search"]::-webkit-search-results-decoration {
   font-size: 26px;
   line-height: 32px;
   color: #4f4f4f;
+}
+
+.office_contacts_block {
+  margin-top: 25px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.location_office {
+  margin-right: 150px;
+}
+
+.social_link_btn__contact_block {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 1px solid #828282;
+  background-color: inherit;
 }
 
 .footer {
@@ -643,9 +670,17 @@ input[type="search"]::-webkit-search-results-decoration {
     width: 250px;
     height: 250px;
   }
+  .location_office {
+    margin-right: 50px;
+  }
 }
 
 @media only screen and (max-width: 1280px) {
+  .nav {
+    -webkit-box-pack: stretch;
+        -ms-flex-pack: stretch;
+            justify-content: stretch;
+  }
   .nav_list {
     width: 45%;
   }
@@ -683,5 +718,26 @@ input[type="search"]::-webkit-search-results-decoration {
   }
   .btn_sub {
     width: 100px;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .wrapper {
+    max-width: 1024px;
+  }
+  .footer_column {
+    width: 15%;
+  }
+  .privacy_policy {
+    width: 880px;
+  }
+  .nav_list {
+    width: 55%;
+  }
+  .nav_list__item {
+    margin-left: 25px;
+  }
+  .search {
+    width: 240px;
   }
 }
