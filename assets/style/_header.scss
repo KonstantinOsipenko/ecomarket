@@ -12,7 +12,8 @@
     flex-direction: row;
     width: 100%;
     align-items: center;
-    justify-content: space-between;
+    justify-content: flex-start;
+    position: relative;
 }
 .nav_list {
     list-style-type: none;
@@ -36,7 +37,8 @@
     color: #828282;
 }
 .search_form {
-    margin-right: 70px;
+    position: absolute;
+    right: 50px;
 }
 .search {
     border: none;
