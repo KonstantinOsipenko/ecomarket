@@ -108,7 +108,9 @@
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: space-between;
+    margin-top: 100px;
 }
+
 .wrap_title_about {
     width: 55%;
     text-align: left;
@@ -131,6 +133,8 @@
     line-height: 28px;
     letter-spacing: -0.01em;
     color: #4f4f4f;
+    display: flex;
+    flex-direction: column;
 }
 .key_word {
     font-weight: bold;
@@ -380,10 +384,10 @@
     line-height: 26px;
 }
 .wrapper_back_contact {
-    margin-top: 100px;
     background: #fcfcfc;
 }
 .back_contact {
+    margin-top: 100px;
     padding-top: 100px;
     height: 480px;
     display: flex;
@@ -572,7 +576,7 @@
 .error {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
 }
 .column_error_block {
@@ -595,4 +599,19 @@
 }
 .link_error {
     color: #fff;
+}
+.title__not_found {
+    text-align: left;
+    font-family: "GothaPro";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 38px;
+    line-height: 108%;
+    letter-spacing: -0.01em;
+}
+.first_error_block {
+    width: 70%;
+}
+.second_error_block {
+    width: 30%;
 }
