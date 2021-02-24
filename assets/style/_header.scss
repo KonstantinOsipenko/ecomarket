@@ -10,7 +10,7 @@
     border: none;
 }
 .nav {
-    width: 100%;
+    width: 1256px;
     display: flex;
     justify-content: space-between;
     height: 105px;
@@ -19,7 +19,30 @@
 }
 .header_logo {
     position: absolute;
-    left: -100px;
+    left: 0px;
+}
+.search_form {
+    position: relative;
+    display: flex;
+}
+.search {
+    width: 390px;
+    height: 50px;
+    background: inherit;
+    opacity: 0.6;
+    border: none;
+}
+.search:hover {
+    transition: 0.7s;
+    background: rgba(17, 17, 17, 0.08);
+}
+.btn_serch {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    border: none;
+    background: inherit;
 }
 .nav_list {
     list-style-type: none;
@@ -39,12 +62,12 @@
     background-size: 100% auto;
     background-position: top;
 }
-
-.item_nav_list:not(:first-child) {
-    margin-left: 55px;
+.item_nav_list {
+    width: 100px;
 }
+
 .nav_link {
-    font-family: "GothaPro";
+    font-family: "GothaProReg";
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -56,12 +79,13 @@
     color: #e30613;
     font-weight: bold;
 }
-p,
+p {
+    font-family: "GothaProMed";
+}
 h1,
 h2,
-h3,
-a {
-    font-family: "GothaPro";
+h3 {
+    font-family: "GothaProBol";
 }
 a {
     text-decoration: none;
