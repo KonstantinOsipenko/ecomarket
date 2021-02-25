@@ -227,7 +227,9 @@ a {
 }
 
 .wrap_discript {
-  padding-right: 40px;
+  width: 245px;
+  height: 167px;
+  margin-right: 19px;
 }
 
 .item_gategory {
@@ -276,6 +278,7 @@ a {
   line-height: 24px;
   text-transform: uppercase;
   color: #828282;
+  margin-top: 0;
 }
 
 .discript_category {
@@ -347,11 +350,11 @@ a {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  margin-top: 100px;
+  margin: 100px 0 81px;
 }
 
 .wrap_title_about {
-  width: 55%;
+  width: 526px;
   text-align: left;
   color: #4f4f4f;
 }
@@ -367,7 +370,7 @@ a {
 }
 
 .wrap_about_discript {
-  width: 40%;
+  width: 608px;
   font-family: "GothaProMed";
   font-weight: normal;
   font-size: 18px;
@@ -465,11 +468,11 @@ a {
   -ms-flex-wrap: nowrap;
       flex-wrap: nowrap;
   background: #fcfcfc;
+  margin-bottom: 100px;
 }
 
-.new_promo_product,
-.news_promo_block {
-  width: 50%;
+.new_promo_product {
+  width: 608px;
 }
 
 .new_promo_product {
@@ -489,6 +492,7 @@ a {
 }
 
 .news_promo_block {
+  width: 502px;
   font-family: "GothaPro";
   font-style: normal;
   line-height: 32px;
@@ -546,7 +550,7 @@ a {
 }
 
 .shops_slide {
-  width: 33%;
+  width: 392px;
   height: 560px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -575,9 +579,11 @@ a {
   font-family: "GothaProBol";
   font-size: 26px;
   line-height: 32px;
+  margin: 0 0 40px 0;
 }
 
 .discript_slider_shops {
+  margin: 50px 0 0 0;
   font-weight: 700;
   font-family: "GothaProBol";
   font-size: 18px;
@@ -592,7 +598,7 @@ a {
 }
 
 .address_shops {
-  width: 290px;
+  width: 312px;
   font-family: "GothaProBol";
   font-weight: 700;
   font-size: 26px;
@@ -1061,7 +1067,6 @@ a {
 }
 
 .column_error_block {
-  width: 50%;
   color: #4f4f4f;
 }
 
@@ -1095,16 +1100,13 @@ a {
   letter-spacing: -0.01em;
 }
 
-.first_error_block {
-  width: 70%;
-}
-
 .second_error_block {
-  width: 30%;
+  margin-left: 145px;
 }
 
 .footer {
   margin-top: 100px;
+  padding-top: 95px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1162,12 +1164,13 @@ a {
       -ms-flex-align: start;
           align-items: flex-start;
   font-size: 18px;
+  margin-bottom: 80px;
 }
 
 .privacy_policy {
   font-family: "GothaProReg";
   width: 1256px;
-  padding-top: 25px;
+  padding: 25px 0;
   border-top: solid 1px #191f23;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1256,19 +1259,6 @@ a {
   }
 }
 
-@media only screen and (max-width: 1180px) {
-  .place_block {
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-  }
-  .column_gallery__place_block {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-  }
-}
-
 @media only screen and (max-width: 1250px) {
   .header_logo {
     left: -20px;
@@ -1283,6 +1273,22 @@ a {
   }
   .search {
     width: 340px;
+  }
+  .item_gategory {
+    width: 575px;
+  }
+}
+
+@media only screen and (max-width: 1180px) {
+  .place_block {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .column_gallery__place_block {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
   }
 }
 
@@ -1312,7 +1318,7 @@ a {
   }
   .new_promo_product,
   .news_promo_block {
-    width: 38%;
+    width: 50%;
   }
   .our_shops {
     -webkit-box-align: center;
@@ -1329,6 +1335,16 @@ a {
   }
   .text_privacy_policy {
     margin: 0px 57px;
+  }
+  .gallery {
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  .item_gategory {
+    width: 560px;
+  }
+  .img_about_1 {
+    width: 560px;
   }
   .gallery__place_block {
     width: 100%;
@@ -1600,9 +1616,6 @@ a {
   .logo_column {
     display: none;
   }
-  .column_error_block {
-    width: 45%;
-  }
   .title__not_found {
     font-size: 22px;
   }
@@ -1616,6 +1629,15 @@ a {
   }
   .second_partner_list {
     text-align: left;
+  }
+  .error {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .second_error_block {
+    margin: 20px 0 0 0;
   }
 }
 

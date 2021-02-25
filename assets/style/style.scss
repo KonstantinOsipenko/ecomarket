@@ -6,7 +6,42 @@
     font-family: "GothaProReg";
     src: local("GothaProReg"), url("../assets/fonts/GothaProReg.eot");
 }
-
+@mixin h0() {
+    font-family: "GothaProBol";
+    font-size: 38px;
+}
+@mixin h1() {
+    font-family: "GothaProMed";
+    font-size: 40px;
+}
+@mixin h2() {
+    font-family: "GothaProBol";
+    font-size: 26px;
+}
+@mixin h3() {
+    font-family: "GothaProMed";
+    font-size: 16px;
+}
+@mixin h4() {
+    font-family: "GothaProMed";
+    font-size: 14px;
+}
+@mixin p1() {
+    font-family: "GothaProBol";
+    font-size: 18px;
+}
+@mixin p2() {
+    font-family: "GothaProMed";
+    font-size: 18px;
+}
+@mixin p3() {
+    font-family: "GothaProReg";
+    font-size: 18px;
+}
+@mixin p4() {
+    font-family: "GothaProReg";
+    font-size: 16px;
+}
 body {
     margin: 0;
     font-family: "GothaProBol", "GothaProMed", "GothaProReg";
@@ -49,14 +84,7 @@ input[type="button"] {
         width: 100%;
     }
 }
-@media only screen and (max-width: 1180px) {
-    .place_block {
-        justify-content: center;
-    }
-    .column_gallery__place_block {
-        display: flex;
-    }
-}
+
 @media only screen and (max-width: 1250px) {
     .header_logo {
         left: -20px;
@@ -71,6 +99,17 @@ input[type="button"] {
     }
     .search {
         width: 340px;
+    }
+    .item_gategory {
+        width: 575px;
+    }
+}
+@media only screen and (max-width: 1180px) {
+    .place_block {
+        justify-content: center;
+    }
+    .column_gallery__place_block {
+        display: flex;
     }
 }
 @media only screen and (max-width: 1024px) {
@@ -95,7 +134,7 @@ input[type="button"] {
     }
     .new_promo_product,
     .news_promo_block {
-        width: 38%;
+        width: 50%;
     }
     .our_shops {
         align-items: center;
@@ -108,6 +147,15 @@ input[type="button"] {
     }
     .text_privacy_policy {
         margin: 0px 57px;
+    }
+    .gallery {
+        justify-content: space-around;
+    }
+    .item_gategory {
+        width: 560px;
+    }
+    .img_about_1 {
+        width: 560px;
     }
     .gallery__place_block {
         width: 100%;
@@ -311,9 +359,7 @@ input[type="button"] {
     .logo_column {
         display: none;
     }
-    .column_error_block {
-        width: 45%;
-    }
+
     .title__not_found {
         font-size: 22px;
     }
@@ -327,6 +373,12 @@ input[type="button"] {
     }
     .second_partner_list {
         text-align: left;
+    }
+    .error {
+        flex-direction: column;
+    }
+    .second_error_block {
+        margin: 20px 0 0 0;
     }
 }
 @media only screen and (max-width: 620px) {

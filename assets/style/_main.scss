@@ -23,7 +23,9 @@
     justify-content: space-between;
 }
 .wrap_discript {
-    padding-right: 40px;
+    width: 245px;
+    height: 167px;
+    margin-right: 19px;
 }
 .item_gategory {
     position: relative;
@@ -59,6 +61,7 @@
     line-height: 24px;
     text-transform: uppercase;
     color: #828282;
+    margin-top: 0;
 }
 .discript_category {
     font-family: "GothamProMed";
@@ -105,11 +108,11 @@
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: space-between;
-    margin-top: 100px;
+    margin: 100px 0 81px;
 }
 
 .wrap_title_about {
-    width: 55%;
+    width: 526px;
     text-align: left;
     color: #4f4f4f;
 }
@@ -123,7 +126,7 @@
     letter-spacing: -0.01em;
 }
 .wrap_about_discript {
-    width: 40%;
+    width: 608px;
     font-family: "GothaProMed";
     font-weight: normal;
     font-size: 18px;
@@ -189,10 +192,10 @@
     align-items: center;
     flex-wrap: nowrap;
     background: #fcfcfc;
+    margin-bottom: 100px;
 }
-.new_promo_product,
-.news_promo_block {
-    width: 50%;
+.new_promo_product {
+    width: 608px;
 }
 .new_promo_product {
     display: flex;
@@ -201,6 +204,7 @@
     align-items: center;
 }
 .news_promo_block {
+    width: 502px;
     font-family: "GothaPro";
     font-style: normal;
     line-height: 32px;
@@ -235,7 +239,7 @@
     width: 100%;
 }
 .shops_slide {
-    width: 33%;
+    width: 392px;
     height: 560px;
     display: flex;
     flex-direction: column;
@@ -252,8 +256,10 @@
     font-family: "GothaProBol";
     font-size: 26px;
     line-height: 32px;
+    margin: 0 0 40px 0;
 }
 .discript_slider_shops {
+    margin: 50px 0 0 0;
     font-weight: 700;
     font-family: "GothaProBol";
     font-size: 18px;
@@ -266,7 +272,7 @@
     }
 }
 .address_shops {
-    width: 290px;
+    width: 312px;
     font-family: "GothaProBol";
     font-weight: 700;
     font-size: 26px;
@@ -596,7 +602,6 @@
     align-items: center;
 }
 .column_error_block {
-    width: 50%;
     color: #4f4f4f;
 }
 .title_error {
@@ -625,9 +630,7 @@
     line-height: 108%;
     letter-spacing: -0.01em;
 }
-.first_error_block {
-    width: 70%;
-}
 .second_error_block {
-    width: 30%;
+    margin-left: 145px;
 }
+// goods

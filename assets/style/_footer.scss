@@ -1,5 +1,6 @@
 .footer {
     margin-top: 100px;
+    padding-top: 95px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -27,11 +28,12 @@
     flex-direction: column;
     align-items: flex-start;
     font-size: 18px;
+    margin-bottom: 80px;
 }
 .privacy_policy {
     font-family: "GothaProReg";
     width: 1256px;
-    padding-top: 25px;
+    padding: 25px 0;
     border-top: solid 1px #191f23;
     display: flex;
     justify-content: space-between;
