@@ -37,6 +37,10 @@ input[type="search"]::-webkit-search-results-decoration {
     max-width: 1256px;
     margin: auto;
 }
+input[type="button"] {
+    font-family: "GothaProMed";
+    font-size: 16px;
+}
 @import "_header";
 @import "_main";
 @import "_footer";

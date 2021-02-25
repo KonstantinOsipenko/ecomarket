@@ -26,8 +26,10 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    font-size: 18px;
 }
 .privacy_policy {
+    font-family: "GothaProReg";
     width: 1256px;
     padding-top: 25px;
     border-top: solid 1px #191f23;
@@ -36,7 +38,7 @@
     align-items: center;
     font-style: normal;
     font-weight: normal;
-    font-size: 15px;
+    font-size: 16px;
     line-height: 24px;
     letter-spacing: -0.01em;
     color: #283742;
@@ -48,6 +50,7 @@
 }
 .social_link,
 .item_list_address {
+    font-family: "GothaProReg";
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
@@ -56,20 +59,19 @@
     color: #191f23;
     opacity: 0.8;
 }
-.title_footer_column,
-.discript_subscribe {
-    font-weight: bold;
-    font-size: 16px;
-    line-height: 26px;
+.discript_subscribe,
+.title_footer_column {
+    font-family: "GothaProBol";
+    font-weight: 700;
+    font-size: 18px;
     letter-spacing: -0.01em;
+    font-style: normal;
+    line-height: 32px;
 }
 .discript_subscribe {
     margin-bottom: 20px;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 16.4px;
-    line-height: 26px;
 }
+
 .sub_form {
     display: flex;
     justify-content: center;
@@ -90,8 +92,6 @@
     border: none;
     background: #e30613;
     color: #fff;
-    font-style: normal;
-    font-weight: bold;
     font-size: 16px;
     line-height: 22px;
 }

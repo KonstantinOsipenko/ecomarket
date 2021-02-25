@@ -38,10 +38,10 @@
 }
 .link_home_category {
     text-decoration: none;
-    font-family: "GothaPro";
+    font-family: "GothaProReg";
     font-style: normal;
-    font-weight: bold;
-    font-size: 16.8px;
+    font-weight: 400;
+    font-size: 18px;
     line-height: 22px;
     color: #828282;
 }
@@ -52,6 +52,7 @@
     z-index: -1;
 }
 .title_category {
+    font-family: "GothamProMed";
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
@@ -60,6 +61,7 @@
     color: #828282;
 }
 .discript_category {
+    font-family: "GothamProMed";
     width: 244px;
     font-style: normal;
     font-weight: 400;
@@ -113,16 +115,17 @@
 }
 .title_about {
     margin-top: 18px;
-    font-family: "GothaPro";
+    font-family: "GothaProBol";
     font-style: normal;
-    font-weight: bold;
+    font-weight: 700;
     font-size: 38px;
     line-height: 108%;
     letter-spacing: -0.01em;
 }
 .wrap_about_discript {
     width: 40%;
-    font-weight: 600;
+    font-family: "GothaProMed";
+    font-weight: normal;
     font-size: 18px;
     line-height: 28px;
     letter-spacing: -0.01em;
@@ -131,7 +134,8 @@
     flex-direction: column;
 }
 .key_word {
-    font-weight: bold;
+    font-family: "GothaProMed";
+    font-weight: 700;
     font-style: normal;
     font-weight: 800;
     font-size: 18px;
@@ -158,6 +162,7 @@
     color: #4f4f4f;
 }
 .country_partner {
+    font-family: "GothaProMed";
     font-style: normal;
     font-size: 18px;
     line-height: 28px;
@@ -202,11 +207,18 @@
     color: #4f4f4f;
 }
 .title_promo {
+    font-family: "GothaProBol";
+    font-size: 26px;
+    font-style: normal;
     font-weight: bold;
     font-size: 26px;
+    line-height: 32px;
 }
 .discript_news_promo {
-    font-size: 17px;
+    font-family: "GothaProReg";
+    font-size: 26px;
+    line-height: 32px;
+    font-size: 18px;
 }
 .our_shops {
     background: #ffffff;
@@ -237,26 +249,26 @@
     margin: 0 40px;
 }
 .title_shops {
-    font-style: normal;
-    font-weight: bold;
+    font-family: "GothaProBol";
     font-size: 26px;
     line-height: 32px;
 }
 .discript_slider_shops {
-    font-style: normal;
-    font-weight: 600;
-    font-size: 15px;
+    font-weight: 700;
+    font-family: "GothaProBol";
+    font-size: 18px;
     line-height: 24px;
     letter-spacing: -0.01em;
     color: #4f4f4f;
     .discript_font {
+        font-family: "GothaProReg";
         font-weight: 400;
     }
 }
 .address_shops {
     width: 290px;
-    font-style: normal;
-    font-weight: bold;
+    font-family: "GothaProBol";
+    font-weight: 700;
     font-size: 26px;
     line-height: 32px;
     color: #4f4f4f;
