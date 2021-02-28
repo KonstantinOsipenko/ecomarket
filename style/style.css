@@ -1476,12 +1476,12 @@ a {
   line-height: 22px;
 }
 
-.address_list p:not(:first-child) {
-  margin: 14px 0;
+.address_list p {
+  margin: 14px 0 0 0;
 }
 
 .social_link_list a {
-  margin: 14px 0;
+  margin: 14px 0 0 0;
 }
 
 @media only screen and (max-width: 1366px) {
