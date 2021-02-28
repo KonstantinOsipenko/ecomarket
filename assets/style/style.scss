@@ -1,50 +1,24 @@
 @font-face {
     font-family: "GothaProBol";
-    src: local("GothaProBol"), url("../assets/fonts/GothaProBol.eot");
+    src: local("GothaProBol"), url("../assets/fonts/GothaProBol.otf") format("opentype");
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
     font-family: "GothaProMed";
-    src: local("GothaProMed"), url("../assets/fonts/GothaProMed.eot");
+    src: local("GothaProMed"), url("../assets/fonts/GothaProMed.otf") format("opentype");
+    font-weight: bolder;
+    font-style: normal;
+}
+@font-face {
     font-family: "GothaProReg";
-    src: local("GothaProReg"), url("../assets/fonts/GothaProReg.eot");
-}
-@mixin h0() {
-    font-family: "GothaProBol";
-    font-size: 38px;
-}
-@mixin h1() {
-    font-family: "GothaProMed";
-    font-size: 40px;
-}
-@mixin h2() {
-    font-family: "GothaProBol";
-    font-size: 26px;
-}
-@mixin h3() {
-    font-family: "GothaProMed";
-    font-size: 16px;
-}
-@mixin h4() {
-    font-family: "GothaProMed";
-    font-size: 14px;
-}
-@mixin p1() {
-    font-family: "GothaProBol";
-    font-size: 18px;
-}
-@mixin p2() {
-    font-family: "GothaProMed";
-    font-size: 18px;
-}
-@mixin p3() {
-    font-family: "GothaProReg";
-    font-size: 18px;
-}
-@mixin p4() {
-    font-family: "GothaProReg";
-    font-size: 16px;
+    src: local("GothaProReg"), url("../assets/fonts/GothaProReg.otf") format("opentype");
+    font-weight: normal;
+    font-style: normal;
 }
 body {
     margin: 0;
-    font-family: "GothaProBol", "GothaProMed", "GothaProReg";
+    font-family: "GothaProReg";
     box-sizing: border-box;
     overflow-x: hidden;
 }
@@ -83,12 +57,12 @@ input[type="button"] {
     .nav {
         width: 100%;
     }
+    .header_logo {
+        left: -135px;
+    }
 }
 
-@media only screen and (max-width: 1250px) {
-    .header_logo {
-        left: -20px;
-    }
+@media only screen and (max-width: 1266px) {
     .nav_list {
         width: 500px;
     }
@@ -103,6 +77,16 @@ input[type="button"] {
     .item_gategory {
         width: 575px;
     }
+    .img_about_2 {
+        margin-left: 100px;
+    }
+    .goods_block {
+        width: 60%;
+    }
+    .discript_block_goods_shops_page_product {
+        width: 35%;
+        margin: 0;
+    }
 }
 @media only screen and (max-width: 1180px) {
     .place_block {
@@ -110,6 +94,9 @@ input[type="button"] {
     }
     .column_gallery__place_block {
         display: flex;
+    }
+    .img_about_2 {
+        margin-left: 10px;
     }
 }
 @media only screen and (max-width: 1024px) {
@@ -161,18 +148,23 @@ input[type="button"] {
         width: 100%;
         flex-direction: column;
         align-items: center;
-        .column_gallery__place_block {
-            margin-top: 25px;
-            display: flex;
-            flex-direction: row;
-        }
     }
-    .first_img_galery__place_block,
-    .second_img_galery__place_block,
-    .third_img_galery__place_block,
-    .fourth_img_galery__place_block {
+    .column_gallery__place_block {
+        margin-top: 25px;
+        display: flex;
+        flex-direction: row;
+    }
+    .first_item_category,
+    .third_item_category,
+    .fifth_item_category {
+        margin: 0 0 40px 0;
+    }
+    .second_item_category,
+    .fourth_item_category,
+    .sixth_item_category {
         margin: 0;
     }
+
     .img_gallery__place_block {
         margin-left: 25px;
     }
@@ -239,7 +231,7 @@ input[type="button"] {
         text-align: center;
     }
     .wrap_title_about {
-        width: 100%;
+        width: 606px;
         display: flex;
         flex-direction: column;
     }

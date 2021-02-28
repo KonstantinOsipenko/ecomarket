@@ -38,6 +38,16 @@
     z-index: 1;
     background: #f8f8f8;
 }
+.first_item_category,
+.third_item_category,
+.fifth_item_category {
+    margin-right: 20px;
+}
+.second_item_category,
+.fourth_item_category,
+.sixth_item_category {
+    margin-left: 20px;
+}
 .link_home_category {
     text-decoration: none;
     font-family: "GothaProReg";
@@ -54,7 +64,7 @@
     z-index: -1;
 }
 .title_category {
-    font-family: "GothamProMed";
+    font-family: "GothaProMed";
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
@@ -64,13 +74,14 @@
     margin-top: 0;
 }
 .discript_category {
-    font-family: "GothamProMed";
+    font-family: "GothaProMed";
     width: 244px;
     font-style: normal;
     font-weight: 400;
     font-size: 40px;
     line-height: 108%;
     color: #4f4f4f;
+    margin: 19px 0 13px;
 }
 .btn_catagory {
     font-style: normal;
@@ -157,6 +168,7 @@
 .img_about_2 {
     width: 392px;
     height: 500px;
+    margin-left: 150px;
 }
 .wrap_country_list {
     display: flex;
@@ -205,14 +217,12 @@
 }
 .news_promo_block {
     width: 502px;
-    font-family: "GothaPro";
     font-style: normal;
     line-height: 32px;
     color: #4f4f4f;
 }
 .title_promo {
     font-family: "GothaProBol";
-    font-size: 26px;
     font-style: normal;
     font-weight: bold;
     font-size: 26px;
@@ -230,6 +240,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
+    padding-bottom: 140px;
 }
 .wrapper_slider_shops {
     display: flex;
@@ -257,6 +268,7 @@
     font-size: 26px;
     line-height: 32px;
     margin: 0 0 40px 0;
+    color: #4f4f4f;
 }
 .discript_slider_shops {
     margin: 50px 0 0 0;
@@ -266,10 +278,11 @@
     line-height: 24px;
     letter-spacing: -0.01em;
     color: #4f4f4f;
-    .discript_font {
-        font-family: "GothaProReg";
-        font-weight: 400;
-    }
+}
+.discript_font {
+    font-family: "GothaProReg";
+    font-weight: 400;
+    font-size: 18px;
 }
 .address_shops {
     width: 312px;
@@ -297,40 +310,45 @@
     background-color: inherit;
 }
 .location_office {
-    width: 60%;
+    width: 716px;
     height: 500px;
     img {
         width: 100%;
-        height: 100%;
+        height: 500px;
     }
 }
 .contacts {
     display: flex;
     flex-direction: column;
-    height: 335px;
-    width: 35%;
-    font-family: "GothaPro";
-    font-style: normal;
+    height: 427px;
+    width: 234px;
+    font-family: "GothaProReg";
     font-size: 16px;
     line-height: 26px;
     letter-spacing: -0.01em;
-    font-weight: 600;
     color: #4f4f4f;
+    margin-right: 155px;
 }
 .address_main_office {
-    margin-bottom: 0;
+    margin: 0;
 }
-.title_address_office_block,
-.title_work_day_office_block,
-.link_number_contact_block {
-    margin-bottom: 0;
+.title_address_office_block {
+    font-family: "GothaProBol";
+    margin-top: 35px;
+    font-size: 16px;
+}
+.title_contacts_office_work_block {
+    margin: 30px 0 0;
+    font-size: 16px;
 }
 .address_main_office,
 .title_contacts_office_work_block {
     font-weight: 600;
+    font-size: 16px;
 }
 .discript_work_day_office_block {
     font-weight: 400;
+    font-size: 16px;
 }
 .title_disc_contacts {
     display: flex;
@@ -338,7 +356,10 @@
 }
 .link_number_contact_block {
     color: #4f4f4f;
+    font-family: "GothaProBol";
+    font-size: 16px;
 }
+
 .social_block {
     margin-top: 50px;
 }
@@ -346,48 +367,54 @@
     margin: 0 20px;
 }
 .title_work_day_office_block {
-    margin-bottom: 15px;
+    margin: 35px 0 0;
+    font-size: 16px;
+    font-family: "GothaProBol";
 }
 .place_block {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     margin-top: 100px;
+    padding-bottom: 100px;
 }
-
+.discr_input_form_feedback {
+    font-family: "GothaProMed";
+    font-size: 14px;
+}
 .second_paragraph_text_block__place_block {
     margin-top: 35px;
 }
 .gallery__place_block {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     justify-content: center;
-    width: 50%;
+    width: 501px;
 }
 .img_gallery__place_block {
-    width: 267px;
-    height: 267px;
+    width: 238px;
+    height: 238px;
 }
 .first_img_galery__place_block {
     margin: 0 12.5px 12.5px 0;
 }
 .second_img_galery__place_block {
-    margin: 0 0 12.5px 12.5px;
+    margin: 12.5px 12.5px 0 0;
 }
 .third_img_galery__place_block {
-    margin: 12.5px 12.5px 0 0;
+    margin: 0 0 12.5px 12.5px;
 }
 .fourth_img_galery__place_block {
     margin: 12.5px 0 0 12.5px;
 }
 .text_block__place_block {
-    width: 50%;
+    width: 605px;
     box-sizing: border-box;
-    margin-right: 10px;
-    padding-right: 100px;
 }
-.title_text_block__place_block,
+.title_text_block__place_block {
+    margin: 0 0 40px;
+}
 .first_paragraph_text_block__place_block,
 .second_paragraph_text_block__place_block {
     font-style: normal;
@@ -398,7 +425,7 @@
 }
 .first_paragraph_text_block__place_block,
 .second_paragraph_text_block__place_block {
-    font-weight: normal;
+    font-family: "GothaProReg";
     font-size: 16px;
     line-height: 26px;
 }
@@ -406,12 +433,20 @@
     background: #fcfcfc;
 }
 .back_contact {
-    margin-top: 100px;
     padding-top: 100px;
     height: 480px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: baseline;
+}
+.title_back_contact {
+    font-family: "GothaProBol";
+    font-size: 32px;
+}
+.dicsrript_back_contact {
+    font-family: "GothaProReg";
+    font-size: 16px;
 }
 .contact_form_feedback {
     display: flex;
@@ -465,22 +500,27 @@
     margin: 30px 0 10px;
 }
 .news_block__contacts_page {
-    margin-top: 100px;
+    padding: 100px 0;
     display: flex;
     justify-content: space-between;
 }
 .img_news_block__contacts_page {
     width: 100%;
 }
-.img_block__news_block,
-.text_block__news_block__contacts_page {
-    width: 45%;
+.img_block__news_block {
+    width: 501px;
 }
-.title_text_block,
+.text_block__news_block__contacts_page {
+    width: 606px;
+}
+.title_text_block {
+    margin: 0 0 40px;
+}
+.second_paragraph_discr_text_block__contacts_page {
+    margin-top: 40px;
+}
 .discr_text_block {
-    font-family: "GothaPro";
-    font-style: normal;
-    font-weight: normal;
+    font-family: "GothaProReg";
     font-size: 16px;
     line-height: 26px;
     color: #4f4f4f;
@@ -490,7 +530,7 @@
     padding-bottom: 100px;
 }
 .title_text_block {
-    font-weight: bold;
+    font-family: "GothaProBol";
     font-size: 38px;
     line-height: 108%;
 }
@@ -501,7 +541,7 @@
     justify-content: flex-start;
 }
 .dsc_input_work_form {
-    font-family: "GothaPro";
+    font-family: "GothaProReg";
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
@@ -542,6 +582,8 @@
     height: 175px;
     width: 100%;
     padding-top: 15px;
+    resize: none;
+    color: #828282;
 }
 .input_file {
     width: 0.1px;
@@ -573,26 +615,41 @@
 // }
 
 // about
+.about {
+    align-items: center;
+}
 .text_abot_content,
 .text_country_list {
-    font-family: "GothaPro";
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 26px;
     color: #4f4f4f;
 }
 .about_us {
     margin: 0;
 }
 .wrap_title_about {
-    width: 50%;
+    margin-right: 40px;
 }
-.wrap_about_discript {
-    width: 45%;
+.column_content_about_page {
+    width: 606px;
+}
+.title_about_page {
+    margin-bottom: 35px;
+}
+.title_country_list_about_page {
+    margin-bottom: 40px;
 }
 .new_paragraph__text_abot_content {
     margin-top: 40px;
+}
+.second_paragraph_text_block__about_page {
+    margin-top: 35px;
+}
+.text_content_about_page {
+    font-family: "GothaProReg";
+    font-size: 16px;
+    line-height: 26px;
+}
+.first_paragraph_country_list_about_page {
+    margin: 45px 0 25px;
 }
 // error page
 .error {
@@ -605,15 +662,13 @@
     color: #4f4f4f;
 }
 .title_error {
-    font-style: normal;
-    font-weight: bold;
+    font-family: "GothaProBol";
     font-size: 36px;
     line-height: 26px;
     letter-spacing: -0.01em;
 }
-.text_error {
-    font-style: normal;
-    font-weight: normal;
+.text_error_page {
+    font-family: "GothaProBol";
     font-size: 16px;
     line-height: 26px;
     letter-spacing: -0.01em;
@@ -623,9 +678,7 @@
 }
 .title__not_found {
     text-align: left;
-    font-family: "GothaPro";
-    font-style: normal;
-    font-weight: bold;
+    font-family: "GothaProBol";
     font-size: 38px;
     line-height: 108%;
     letter-spacing: -0.01em;
@@ -634,3 +687,88 @@
     margin-left: 145px;
 }
 // goods
+.wrap_goods {
+    display: flex;
+    flex-direction: column;
+}
+.nav_main {
+    display: flex;
+    justify-content: space-between;
+    height: 25px;
+    margin-bottom: 28px;
+}
+.breadcrumbs {
+    font-family: "GothaProReg";
+    font-size: 16px;
+    color: #4f4f4f;
+}
+.btn_goods_home {
+    height: 24px;
+    border: none;
+    background: inherit;
+    vertical-align: middle;
+}
+.link_goods_home {
+    font-family: "GothaProMed";
+    font-size: 16px;
+    line-height: 24px;
+    text-align: right;
+    letter-spacing: -0.01em;
+    color: #e30613;
+}
+.text_in_btn {
+    margin-left: 14px;
+}
+.goods {
+    color: #828282;
+    line-height: 26px;
+    letter-spacing: -0.01em;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.goods_block {
+    width: 608px;
+    margin-right: 40px;
+}
+.discript_block_goods_shops_page_product {
+    width: 530px;
+    margin-right: 90px;
+}
+.title__discript_goods {
+    font-family: "GothaProBol";
+    font-size: 36px;
+    color: #4f4f4f;
+}
+.mark_goods {
+    font-family: "GothaProReg";
+    font-size: 16px;
+    color: #4f4f4f;
+    line-height: 26px;
+    letter-spacing: -0.01em;
+}
+.disc_category_goods {
+    font-family: "GothaProReg";
+    font-size: 16px;
+    color: #828282;
+    line-height: 26px;
+    letter-spacing: -0.01em;
+}
+.text_goods_card {
+    font-family: "GothaProReg";
+    font-size: 16px;
+    color: #4f4f4f;
+}
+.chek_list {
+    font-family: "GothaProMed";
+    font-size: 16px;
+    color: #4f4f4f;
+    line-height: 26px;
+    letter-spacing: -0.01em;
+    padding-left: 23px;
+}
+.item_check_list {
+    list-style-image: url(../assets/img/goods_vector.svg);
+}
