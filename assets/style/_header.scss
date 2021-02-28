@@ -2,6 +2,9 @@
     width: 100%;
     background-color: #f8f8f8;
     display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
 }
 .logo_btn {
     width: 105px;
@@ -10,21 +13,17 @@
     border: none;
 }
 .nav {
-    width: 1256px;
+    width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     height: 105px;
     align-items: center;
     position: relative;
-    margin-left: 25px;
-}
-.header_logo {
-    position: absolute;
-    left: -190px;
 }
 .search_form {
     position: relative;
     display: flex;
+    margin-right: 55px;
 }
 .search {
     width: 390px;

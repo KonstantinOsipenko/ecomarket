@@ -67,6 +67,16 @@ input[type="button"] {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .logo_btn {
@@ -77,24 +87,18 @@ input[type="button"] {
 }
 
 .nav {
-  width: 1256px;
+  width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
   height: 105px;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
   position: relative;
-  margin-left: 25px;
-}
-
-.header_logo {
-  position: absolute;
-  left: -190px;
 }
 
 .search_form {
@@ -102,6 +106,7 @@ input[type="button"] {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  margin-right: 55px;
 }
 
 .search {
@@ -1399,9 +1404,14 @@ a {
   opacity: 0.8;
 }
 
-.social_link_list,
-.address_list {
-  padding: 0;
+.social_link_list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 .footer_logo_link {
@@ -1466,20 +1476,17 @@ a {
   line-height: 22px;
 }
 
-.address_list li:not(:first-child) {
+.address_list p:not(:first-child) {
   margin: 14px 0;
 }
 
-.social_link_list li:not(:first-child) {
+.social_link_list a {
   margin: 14px 0;
 }
 
 @media only screen and (max-width: 1366px) {
   .nav {
     width: 100%;
-  }
-  .header_logo {
-    left: -135px;
   }
 }
 
@@ -1527,15 +1534,11 @@ a {
 }
 
 @media only screen and (max-width: 1024px) {
-  .header_logo {
-    left: 0px;
-  }
   .nav_list {
     width: 520px;
-    margin-left: 80px;
   }
   .search {
-    width: 300px;
+    width: 200px;
   }
   .about_content {
     -webkit-box-pack: center;
@@ -1643,10 +1646,9 @@ a {
   }
   .nav_list {
     width: 420px;
-    padding-left: 30px;
   }
   .search {
-    width: 280px;
+    width: 180px;
   }
   .wrap_item__category {
     -webkit-box-orient: vertical;

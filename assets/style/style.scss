@@ -57,9 +57,6 @@ input[type="button"] {
     .nav {
         width: 100%;
     }
-    .header_logo {
-        left: -135px;
-    }
 }
 
 @media only screen and (max-width: 1266px) {
@@ -100,15 +97,11 @@ input[type="button"] {
     }
 }
 @media only screen and (max-width: 1024px) {
-    .header_logo {
-        left: 0px;
-    }
     .nav_list {
         width: 520px;
-        margin-left: 80px;
     }
     .search {
-        width: 300px;
+        width: 200px;
     }
     .about_content {
         justify-content: center;
@@ -190,10 +183,9 @@ input[type="button"] {
     }
     .nav_list {
         width: 420px;
-        padding-left: 30px;
     }
     .search {
-        width: 280px;
+        width: 180px;
     }
     .wrap_item__category {
         flex-direction: column;

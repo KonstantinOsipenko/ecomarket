@@ -15,6 +15,7 @@
     justify-content: space-between;
     align-items: flex-start;
 }
+
 .title_footer_column {
     margin: 0;
 }
@@ -47,9 +48,9 @@
     color: #283742;
     opacity: 0.8;
 }
-.social_link_list,
-.address_list {
-    padding: 0;
+.social_link_list {
+    display: flex;
+    flex-direction: column;
 }
 .footer_logo_link {
     margin-top: 5px;
@@ -101,9 +102,9 @@
     font-size: 16px;
     line-height: 22px;
 }
-.address_list li:not(:first-child) {
+.address_list p:not(:first-child) {
     margin: 14px 0;
 }
-.social_link_list li:not(:first-child) {
+.social_link_list a {
     margin: 14px 0;
 }
