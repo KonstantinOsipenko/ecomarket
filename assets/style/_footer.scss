@@ -15,7 +15,6 @@
     justify-content: space-between;
     align-items: flex-start;
 }
-
 .title_footer_column {
     margin: 0;
 }
@@ -48,9 +47,9 @@
     color: #283742;
     opacity: 0.8;
 }
-.social_link_list {
-    display: flex;
-    flex-direction: column;
+.social_link_list,
+.address_list {
+    padding: 0;
 }
 .footer_logo_link {
     margin-top: 5px;
@@ -102,9 +101,9 @@
     font-size: 16px;
     line-height: 22px;
 }
-.address_list p {
-    margin: 14px 0 0 0;
+.address_list li:not(:first-child) {
+    margin: 14px 0;
 }
-.social_link_list a {
-    margin: 14px 0 0 0;
+.social_link_list li:not(:first-child) {
+    margin: 14px 0;
 }
